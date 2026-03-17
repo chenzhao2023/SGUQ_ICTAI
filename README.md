@@ -12,6 +12,8 @@ Yue Kang, Kennesaw State University,Department of Mathematics,Kennesaw,GA,30144
 
 Chen Zhao, Kennesaw State University,Department of Computer Science,Marietta,GA,30060
 
+![Overview of SMUQ](overview.png)
+
 # Abstract
 With the growing availability of multiview data, such as imaging, text, and clinical records, there is a strong potential to gain a more comprehensive understanding of multiview data and improve classification accuracy. However, traditional machine learning methods often require the simultaneous integration of all available data views, which may lead to inefficiencies, increased costs, and redundant testing. To address these challenges, we propose a novel Staged Multi-view Data Classification method using Uncertainty Quantification (SMUQ) method, designed for flexible and cost-effective multiview data classification. Instead of relying on all views from the outset, SMUQ begins with the most informative and accessible data modality (e.g., imaging) and selectively incorporates additional views-such as text data-only when necessary. This staged approach allows for personalized classification pathways, reducing unnecessary data acquisition while preserving high predictive performance. By modeling data uncertainty and inter-view relationships through graph structures, SMUQ dynamically adapts to each sample's available data, making it especially suitable for real-world multiview data classification settings where data completeness and quality can vary. SMUQ provides a generalizable framework for multiview data classification across a wide range of multiview data analysis related applications, supporting more efficient, interpretable, and scalable AI-driven decision-making.
 
